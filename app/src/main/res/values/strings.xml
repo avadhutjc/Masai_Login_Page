@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Masai_Login_Page</string>
+    <string name="TextMasai">Masai School is a 21st century coding school that cares about you!</string>
+    <string name="sign_in">Sign In</string>
+    <string name="signup">Create an Account</string>
+    <string name="firsttext">Welcome back Continue to Sign Up!</string>
+    <string name="enter_the_name">Enter the name</string>
+    <string name="enter_email_address">Enter email Address</string>
+    <string name="password">Password</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="have_an_account_sign_in">Have an Account ? Sign In</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="dont">Don’t have an Account ? Sign Up</string>
+    <string name="welcome_back_continue_to_sign_in">Welcome back Continue to Sign In!</string>
+    <string name="lloyd_dcosta">Lloyd Dcosta</string>
+</resources>

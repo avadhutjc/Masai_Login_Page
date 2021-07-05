@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BC1C2B"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="124dp"
+        android:text="@string/firsttext"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="510dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginBottom="2dp"
+        android:background="#FFFFFF" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="226dp"
+        android:text="@string/name"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/EtName"
+        android:layout_width="352dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="348dp"
+        android:background="@color/black"
+        android:hint="@string/enter_the_name"
+        android:textAlignment="textStart"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="320dp"
+        android:text="@string/email"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+
+        android:layout_width="352dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="142dp"
+        android:background="@color/black"
+        android:hint="@string/enter_password"
+        android:textAlignment="textStart"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="429dp"
+        android:text="@string/password"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+
+        android:layout_width="352dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="254dp"
+        android:background="@color/black"
+        android:hint="@string/enter_email_address"
+        android:textAlignment="textStart"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="68dp"
+        android:background="#BC1C2B"
+        android:layout_alignParentStart="true"
+        android:text="Sign Up" />
+
+    <TextView
+        android:layout_width="236dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginBottom="23dp"
+        android:background="#A2A2A2"
+        android:text="@string/have_an_account_sign_in"
+        android:textAlignment="gravity"
+        android:gravity="center"/>
+
+
+</RelativeLayout>
